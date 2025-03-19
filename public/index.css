@@ -1,0 +1,45 @@
+body{
+    background-color: pink;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+form{
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 0px;
+    box-shadow: 0 0 10px rgba(184, 136, 193, 0.1);
+    max-width: 400px;
+    margin: auto;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+button{
+    background-color: pink;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
